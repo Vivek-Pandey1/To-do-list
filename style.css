@@ -1,0 +1,14 @@
+body {
+    font-family: 'Helvetica', arial, sans-serif;
+  }
+  
+  .container {
+    background:white;
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #cfcbcc;
+  }
