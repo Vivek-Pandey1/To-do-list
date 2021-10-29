@@ -6,9 +6,41 @@ body {
     background:white;
     max-width: 400px;
     padding: 20px;
-    width: 100%;
+    width: 80%;
     display: table;
-    margin: 0 auto;
+    margin: 1rem auto;
     margin-top: 40px;
     border: 1px solid #cfcbcc;
   }
+  .input-group{
+    width: 100%!important;
+  }
+  #err{
+      display: none;
+  }
+  ul {
+    font-family:"Garamond",'Times New Roman', Times, serif;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  li {
+      color: #899098;
+      font-weight: 600;
+      border-bottom: 1px solid #cfcbcc;
+      line-height: 1.5;
+      padding: 8px 0;
+      cursor: pointer;
+      user-select: none;
+  }
+  li:hover{
+      font-size: 1.5rem;
+  }
+  .strike{
+    text-decoration:line-through;
+    font-weight: 400;
+  
+  }
+  
